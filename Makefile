@@ -5,4 +5,4 @@ clean:
 	rm pb/*.go
 
 run:
-	go run main.go
+	go run grpc_go/main.go
