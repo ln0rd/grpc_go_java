@@ -4,6 +4,8 @@ package grpc_go_java.proto;
 
 import "memory_message.proto";
 
+option go_package = "pb";
+
 message CPU {
   string brand = 1;
   string name = 2;
