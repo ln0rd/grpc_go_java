@@ -1,59 +1,68 @@
-grpc_go_java/proto/ScreenMessage.java
- grpc_go_java.proto.ScreenMessage
- grpc_go_java.proto.ScreenMessage$1
- grpc_go_java.proto.ScreenMessage$Screen
- grpc_go_java.proto.ScreenMessage$Screen$1
- grpc_go_java.proto.ScreenMessage$Screen$Builder
- grpc_go_java.proto.ScreenMessage$Screen$Panel
- grpc_go_java.proto.ScreenMessage$Screen$Panel$1
- grpc_go_java.proto.ScreenMessage$Screen$Resolution
- grpc_go_java.proto.ScreenMessage$Screen$Resolution$1
- grpc_go_java.proto.ScreenMessage$Screen$Resolution$Builder
- grpc_go_java.proto.ScreenMessage$Screen$ResolutionOrBuilder
- grpc_go_java.proto.ScreenMessage$ScreenOrBuilder
-grpc_go_java/proto/ProcessorMessage.java
- grpc_go_java.proto.ProcessorMessage
- grpc_go_java.proto.ProcessorMessage$1
- grpc_go_java.proto.ProcessorMessage$CPU
- grpc_go_java.proto.ProcessorMessage$CPU$1
- grpc_go_java.proto.ProcessorMessage$CPU$Builder
- grpc_go_java.proto.ProcessorMessage$CPUOrBuilder
- grpc_go_java.proto.ProcessorMessage$GPU
- grpc_go_java.proto.ProcessorMessage$GPU$1
- grpc_go_java.proto.ProcessorMessage$GPU$Builder
- grpc_go_java.proto.ProcessorMessage$GPUOrBuilder
-grpc_go_java/proto/KeyboardMessage.java
- grpc_go_java.proto.KeyboardMessage
- grpc_go_java.proto.KeyboardMessage$1
- grpc_go_java.proto.KeyboardMessage$Keyboard
- grpc_go_java.proto.KeyboardMessage$Keyboard$1
- grpc_go_java.proto.KeyboardMessage$Keyboard$Builder
- grpc_go_java.proto.KeyboardMessage$Keyboard$Layout
- grpc_go_java.proto.KeyboardMessage$Keyboard$Layout$1
- grpc_go_java.proto.KeyboardMessage$KeyboardOrBuilder
-grpc_go_java/proto/LaptopMessage.java
- grpc_go_java.proto.LaptopMessage
- grpc_go_java.proto.LaptopMessage$1
- grpc_go_java.proto.LaptopMessage$Laptop
- grpc_go_java.proto.LaptopMessage$Laptop$1
- grpc_go_java.proto.LaptopMessage$Laptop$Builder
- grpc_go_java.proto.LaptopMessage$Laptop$WeightCase
- grpc_go_java.proto.LaptopMessage$LaptopOrBuilder
-grpc_go_java/proto/StorageMessage.java
- grpc_go_java.proto.StorageMessage
- grpc_go_java.proto.StorageMessage$1
- grpc_go_java.proto.StorageMessage$Storage
- grpc_go_java.proto.StorageMessage$Storage$1
- grpc_go_java.proto.StorageMessage$Storage$Builder
- grpc_go_java.proto.StorageMessage$Storage$Driver
- grpc_go_java.proto.StorageMessage$Storage$Driver$1
- grpc_go_java.proto.StorageMessage$StorageOrBuilder
-grpc_go_java/proto/MemoryMessage.java
- grpc_go_java.proto.MemoryMessage
- grpc_go_java.proto.MemoryMessage$1
- grpc_go_java.proto.MemoryMessage$Memory
- grpc_go_java.proto.MemoryMessage$Memory$1
- grpc_go_java.proto.MemoryMessage$Memory$Builder
- grpc_go_java.proto.MemoryMessage$Memory$Unit
- grpc_go_java.proto.MemoryMessage$Memory$Unit$1
- grpc_go_java.proto.MemoryMessage$MemoryOrBuilder
+com/github/ln0rd/grpc_go_java/pb/ScreenOrBuilder.java
+ com.github.ln0rd.grpc_go_java.pb.ScreenOrBuilder
+com/github/ln0rd/grpc_go_java/pb/KeyboardMessage.java
+ com.github.ln0rd.grpc_go_java.pb.KeyboardMessage
+com/github/ln0rd/grpc_go_java/pb/Storage.java
+ com.github.ln0rd.grpc_go_java.pb.Storage
+ com.github.ln0rd.grpc_go_java.pb.Storage$1
+ com.github.ln0rd.grpc_go_java.pb.Storage$Builder
+ com.github.ln0rd.grpc_go_java.pb.Storage$Driver
+ com.github.ln0rd.grpc_go_java.pb.Storage$Driver$1
+com/github/ln0rd/grpc_go_java/pb/ProcessorMessage.java
+ com.github.ln0rd.grpc_go_java.pb.ProcessorMessage
+com/github/ln0rd/grpc_go_java/pb/GPUOrBuilder.java
+ com.github.ln0rd.grpc_go_java.pb.GPUOrBuilder
+com/github/ln0rd/grpc_go_java/pb/LaptopOrBuilder.java
+ com.github.ln0rd.grpc_go_java.pb.LaptopOrBuilder
+com/github/ln0rd/grpc_go_java/pb/MemoryMessage.java
+ com.github.ln0rd.grpc_go_java.pb.MemoryMessage
+com/github/ln0rd/grpc_go_java/pb/KeyboardOrBuilder.java
+ com.github.ln0rd.grpc_go_java.pb.KeyboardOrBuilder
+com/github/ln0rd/grpc_go_java/pb/StorageMessage.java
+ com.github.ln0rd.grpc_go_java.pb.StorageMessage
+com/github/ln0rd/grpc_go_java/pb/Screen.java
+ com.github.ln0rd.grpc_go_java.pb.Screen
+ com.github.ln0rd.grpc_go_java.pb.Screen$1
+ com.github.ln0rd.grpc_go_java.pb.Screen$Builder
+ com.github.ln0rd.grpc_go_java.pb.Screen$Panel
+ com.github.ln0rd.grpc_go_java.pb.Screen$Panel$1
+ com.github.ln0rd.grpc_go_java.pb.Screen$Resolution
+ com.github.ln0rd.grpc_go_java.pb.Screen$Resolution$1
+ com.github.ln0rd.grpc_go_java.pb.Screen$Resolution$Builder
+ com.github.ln0rd.grpc_go_java.pb.Screen$ResolutionOrBuilder
+com/github/ln0rd/grpc_go_java/pb/LaptopMessage.java
+ com.github.ln0rd.grpc_go_java.pb.LaptopMessage
+com/github/ln0rd/grpc_go_java/pb/CPU.java
+ com.github.ln0rd.grpc_go_java.pb.CPU
+ com.github.ln0rd.grpc_go_java.pb.CPU$1
+ com.github.ln0rd.grpc_go_java.pb.CPU$Builder
+com/github/ln0rd/grpc_go_java/pb/MemoryOrBuilder.java
+ com.github.ln0rd.grpc_go_java.pb.MemoryOrBuilder
+com/github/ln0rd/grpc_go_java/pb/StorageOrBuilder.java
+ com.github.ln0rd.grpc_go_java.pb.StorageOrBuilder
+com/github/ln0rd/grpc_go_java/pb/ScreenMessage.java
+ com.github.ln0rd.grpc_go_java.pb.ScreenMessage
+com/github/ln0rd/grpc_go_java/pb/Laptop.java
+ com.github.ln0rd.grpc_go_java.pb.Laptop
+ com.github.ln0rd.grpc_go_java.pb.Laptop$1
+ com.github.ln0rd.grpc_go_java.pb.Laptop$2
+ com.github.ln0rd.grpc_go_java.pb.Laptop$Builder
+ com.github.ln0rd.grpc_go_java.pb.Laptop$WeightCase
+com/github/ln0rd/grpc_go_java/pb/GPU.java
+ com.github.ln0rd.grpc_go_java.pb.GPU
+ com.github.ln0rd.grpc_go_java.pb.GPU$1
+ com.github.ln0rd.grpc_go_java.pb.GPU$Builder
+com/github/ln0rd/grpc_go_java/pb/Keyboard.java
+ com.github.ln0rd.grpc_go_java.pb.Keyboard
+ com.github.ln0rd.grpc_go_java.pb.Keyboard$1
+ com.github.ln0rd.grpc_go_java.pb.Keyboard$Builder
+ com.github.ln0rd.grpc_go_java.pb.Keyboard$Layout
+ com.github.ln0rd.grpc_go_java.pb.Keyboard$Layout$1
+com/github/ln0rd/grpc_go_java/pb/Memory.java
+ com.github.ln0rd.grpc_go_java.pb.Memory
+ com.github.ln0rd.grpc_go_java.pb.Memory$1
+ com.github.ln0rd.grpc_go_java.pb.Memory$Builder
+ com.github.ln0rd.grpc_go_java.pb.Memory$Unit
+ com.github.ln0rd.grpc_go_java.pb.Memory$Unit$1
+com/github/ln0rd/grpc_go_java/pb/CPUOrBuilder.java
+ com.github.ln0rd.grpc_go_java.pb.CPUOrBuilder
